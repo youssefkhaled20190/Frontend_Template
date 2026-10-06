@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+html, body {
+  background-color: #F4F6F8;
+  color: #1f2937;
+}
+
+html.dark, html.dark body {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+:root {
+  --chart-grid: #e5e7eb;
+  --chart-axis: #6b7280;
+  --chart-hover: rgba(37, 99, 235, 0.06);
+  --chart-border: #e5e7eb;
+  --chart-tooltip: #ffffff;
+  --chart-text: #1f2937;
+  --color-primary-50: #e8f1ff;
+  --color-primary-100: #c9dcff;
+  --color-primary-200: #93b8ff;
+  --color-primary-300: #5d93ff;
+  --color-primary-400: #2f6fef;
+  --color-primary-500: #01235E;
+  --color-primary-600: #0a1f6e;
+  --color-primary-700: #0d1a5a;
+  --color-primary-800: #091240;
+  --color-primary-900: #050b28;
+}
+
+.dark {
+  --chart-grid: #374151;
+  --chart-axis: #9ca3af;
+  --chart-hover: rgba(96, 165, 250, 0.08);
+  --chart-border: #374151;
+  --chart-tooltip: #1e1e1e;
+  --chart-text: #f9fafb;
+  --color-primary-50: #0f172a;
+  --color-primary-100: #1e293b;
+  --color-primary-200: #334155;
+  --color-primary-300: #475569;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-primary-800: #1e3a8a;
+  --color-primary-900: #172554;
+}
+
+/* ── Toastify Dark Mode Styling ── */
+.dark .Toastify__toast {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+  border: 1px solid #334155;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+  font-family: 'Cairo', sans-serif;
+}
+
+.dark .Toastify__toast-theme--dark {
+  background-color: #1e1e1e !important;
+  color: #ffffff !important;
+}
+
+.dark .Toastify__close-button {
+  color: #94a3b8;
+}
+.dark .Toastify__close-button:hover {
+  color: #ffffff;
+}

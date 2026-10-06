@@ -1,0 +1,69 @@
+{
+  "name": "security-system",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/icons-material": "^9.4.0",
+    "@mui/material": "^9.4.0",
+    "@reduxjs/toolkit": "^2.12.0",
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.7",
+    "apexcharts": "^7.3.0",
+    "axios": "^1.20.0",
+    "formik": "^2.4.9",
+    "i18next": "^26.4.2",
+    "jwt-decode": "^4.0.0",
+    "react": "^19.3.0",
+    "react-apexcharts": "^2.1.1",
+    "react-axios": "^2.0.6",
+    "react-dom": "^19.3.0",
+    "react-feather": "^2.0.10",
+    "react-i18next": "^17.0.14",
+    "react-icons": "^5.7.0",
+    "react-redux": "^9.3.0",
+    "react-router-dom": "^7.18.3",
+    "react-toastify": "^11.1.0",
+    "reactstrap": "^9.2.3",
+    "recharts": "^3.10.1",
+    "remixicon": "^4.9.1",
+    "sweetalert": "^2.1.2",
+    "web-vitals": "^6.2.1",
+    "yup": "^1.7.1"
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.1",
+    "autoprefixer": "^10.6.0",
+    "postcss": "^8.5.28",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.0"
+  }
+}
